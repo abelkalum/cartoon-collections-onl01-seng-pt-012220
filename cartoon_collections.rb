@@ -1,11 +1,9 @@
 def roll_call_dwarves(dwarves)
-def my_find(collection)
   i = 0
-  while i < collection.length
-    return collection[i] if yield(collection[i])
+  while i < dwarves.length
+    return dwarves[i] if yield(dwarves[i])
     i = i + 1
   end
-end  
 end
 
 def summon_captain_planet# code an argument here
