@@ -1,8 +1,11 @@
 def roll_call_dwarves(dwarves)
-  %w(dwarves).each_with_index { |dwarve, index|
-  roll_call_dwarves[item] = index
-}
-roll_call_dwarves   
+def my_find(collection)
+  i = 0
+  while i < collection.length
+    return collection[i] if yield(collection[i])
+    i = i + 1
+  end
+end  
 end
 
 def summon_captain_planet# code an argument here
